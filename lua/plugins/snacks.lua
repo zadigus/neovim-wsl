@@ -5,7 +5,14 @@ return {
       picker = {
         sources = {
           explorer = {
-            hidden = true
+            hidden = true,
+            win = {
+              list = {
+                keys = {
+                  ["O"] = { { "pick_win", "jump" }, mode = { "n", "i" } },
+                },
+              },
+            },
           },
         },
       },
