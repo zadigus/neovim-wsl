@@ -3,13 +3,19 @@ return {
     "neovim/nvim-lspconfig",
     opts = {
       servers = {
+        pyright = {
+          mason = false,
+          autostart = false,
+        },
         pylsp = {
           settings = {
             pylsp = {
               plugins = {
-                rope_autoimport = {
-                  enabled = true,
-                },
+                flake8 = { enabled = true },
+                mypy = { enabled = true },
+                isort = { enabled = true },
+                rope_autoimport = { enabled = true },
+                rope_completion = { enabled = true },
               },
             },
           },
