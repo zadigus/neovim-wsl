@@ -11,7 +11,8 @@ return {
           settings = {
             pylsp = {
               plugins = {
-                flake8 = { enabled = true },
+                pycodestyle = { enabled = true, ignore = { "E501", "W503" } },
+                flake8 = { enabled = true, ignore = { "E501", "W503" } },
                 mypy = { enabled = true },
                 isort = { enabled = true },
                 rope_autoimport = { enabled = true },
