@@ -8,6 +8,7 @@ return {
           autostart = false,
         },
         pylsp = {
+          -- cf. https://github.com/python-lsp/python-lsp-server/blob/develop/CONFIGURATION.md
           settings = {
             pylsp = {
               plugins = {
