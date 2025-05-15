@@ -4,15 +4,15 @@ return {
     opts = {
       picker = {
         hidden = true,
-        ignored = true,
+        ignored = false,
         sources = {
           files = {
             hidden = true,
-            ignored = true,
+            ignored = false,
           },
           explorer = {
             hidden = true,
-            ignored = true,
+            ignored = false,
             win = {
               list = {
                 keys = {
