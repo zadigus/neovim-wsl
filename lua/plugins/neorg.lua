@@ -19,6 +19,11 @@ return {
             default_workspace = "cognex",
           },
         },
+        ["core.keybinds"] = {
+          config = {
+            default_keybinds = true,
+          },
+        },
       },
     },
   },
