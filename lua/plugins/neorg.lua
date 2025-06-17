@@ -11,10 +11,7 @@ return {
         ["core.dirman"] = {
           config = {
             workspaces = {
-              notes = "~/Documents/notes",
               cognex = "~/Documents/cognex",
-              math = "~/Documents/math",
-              srpski = "~/Documents/srpski",
             },
             default_workspace = "cognex",
           },
