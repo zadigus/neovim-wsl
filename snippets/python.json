@@ -1,10 +1,6 @@
 {
   "RegularTest": {
     "prefix": "testr",
-    "body": "def test_$1():\n\t#Arrange\n\t\n\t#Act\n\t\n\t#Assert\n\tpass"
-  },
-  "AsyncTest": {
-    "prefix": "testa",
-    "body": "pytest.mark.asyncio\nasync def test_$1():\n\t#Arrange\n\t\n\t#Act\n\t\n\t#Assert\n\tpass"
+    "body": "def test_$1():\n\t#Arrange\n\t\n\t#Act\n\t\n\t#Assert\n\t"
   }
 }
