@@ -5,6 +5,6 @@
   },
   "AsyncTest": {
     "prefix": "testa",
-    "body": "pytest.mark.asyncio\nasync def test_$1():\n\t#Arrange\n\t\n\t#Act\n\t\n\t#Assert\n\tpass"
+    "body": "@pytest.mark.asyncio\nasync def test_$1():\n\t#Arrange\n\t\n\t#Act\n\t\n\t#Assert\n\tpass"
   }
 }
