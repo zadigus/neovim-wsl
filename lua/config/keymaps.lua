@@ -40,4 +40,4 @@ vim.keymap.set("n", "<leader>ctc", function()
 end, { desc = "teamcity compile" })
 
 -- neorg
-vim.keymap.set("n", "<LocalLeader><CR>", "<Plug>(neorg.esupports.hop.hop-link)", { desc = "hop link" })
+-- vim.keymap.set("n", "<LocalLeader><CR>", "<Plug>(neorg.esupports.hop.hop-link)", { desc = "hop link" })
