@@ -14,3 +14,12 @@ vim.api.nvim_create_autocmd("FileType", {
     vim.opt_local.expandtab = true
   end,
 })
+
+vim.api.nvim_create_autocmd("BufWritePost", {
+  pattern = "uv.lock",
+  callback = function()
+    vim.cmd("UpdateRemotePlugins")
+    vim.cmd("LspRestart")
+    vim.notify("uv environment refreshed!", vim.log.levels.INFO)
+  end,
+})
