@@ -23,6 +23,7 @@ return {
             },
           },
         },
+        -- for ty, cf. https://www.reddit.com/r/neovim/comments/1kl9qv8/comment/ms0ngxa/?tl=fr&utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
         cucumber_language_server = {
           settings = {
             cucumber = {
