@@ -32,7 +32,7 @@ return {
 
       -- Ask with current buffer/selection as context (like opencode <leader>oa)
       {
-        "<leader>ca",
+        "<leader>cx",
         function()
           local input = vim.fn.input("Ask Copilot: ")
           if input ~= "" then
